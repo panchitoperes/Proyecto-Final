@@ -8,11 +8,13 @@
 </head>
 <body>
     <header>
-    <h1>Nombre de la empresa
-    </h1></header>
+        <h1>Nombre de la empresa</h1>
+    </header>
+
+<main>
     <h2>¿Quienes somos?</h2>
     <section class="h2p">
-                <p>
+            <p>
                 Somos una empresa pionera en innovación, comprometida con generar el mayor valor para nuestros clientes y socios estratégicos.
                 Nos enfocamos en ofrecer soluciones únicas que impulsen el crecimiento y éxito mutuo, siempre adaptándonos a las necesidades cambiantes del mercado.
             </p>   
@@ -24,39 +26,52 @@
         
         <label>Nombre(s)</label>
             <input
-            type="text"
-            name="nombre"
-            placeholder="Ingresa tu nombre"
-            required
+                type="text"
+                name="nombre"
+                placeholder="Ingresa tu nombre"
+                required
             >
         <br><br>
             <label>Apellidos</label>
             <input
-            type="text"
-            name="apellidos"
-            placeholder="Ingresa tus apellidos"
-            required   
+                type="text"
+                name="apellidos"
+                placeholder="Ingresa tus apellidos"
+                required   
             >
         <br><br>
             <label>Email</label>
             <input
-            type="text"
-            name="mail"
-            placeholder="Ingresa tu Email"
-            required    
-            >   
+                type="email"
+                name="mail"
+                placeholder="Ingresa tu Email"
+                required    
+            > 
+                <select name="Dominio">
+                    <option value="" selected hidden disabled >Seleccionar dominio</option>
+                    <option value="gato">@gmail.com</option>
+                    <option value="perro">@outlook.com</option>
+                    <option value="araña">@hotmail.com</option>
+                    <option value="otra">otro</option>
+                    required 
+                </select>   
+                    <input
+                        type="email"
+                        name="dominio"
+                        placeholder="Dominio"
+                    >
         <br><br>
             <label>Teléfono</label>
             <input
-            type="text"
-            name="phonenumber"
-            placeholder="Ingresa número de telefono"
-            required  
+                type="tel"
+                name="phonenumber" 
+                placeholder="Ingresa tu número de telefono"
+                required  
             >
                 <input type="radio" name="tipo_num" value="movil" required> Movil
                 <input type="radio" name="tipo_num" value="fijo" required> Fijo
         <br><br>
-            <textarea name="comentarios" rows="4" cols="50" placeholder="Descripción de la solicitud"></textarea>
+            <textarea name="comentarios" rows="10" cols="90" placeholder="Descripción de la solicitud"></textarea>
         <br><br>
             <button type="submit">Enviar</button>
 
@@ -64,10 +79,10 @@
     <footer>
     <h3>Siguenos en nuestras redes sociales</h3>
     <ul>
-        <li><a href="https://www.facebook.com/"><img src="https://cdn.pixabay.com/photo/2021/06/15/12/51/facebook-6338508_1280.png" width="30px"> Facebook</a></li>
-        <li><a href="https://x.com/"><img src="https://static.vecteezy.com/system/resources/thumbnails/027/395/710/small/twitter-brand-new-logo-3-d-with-new-x-shaped-graphic-of-the-world-s-most-popular-social-media-free-png.png" width="30px"> X</a></li>
-        <li><a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" width="30px"> Instagram</a></li>
-        <li><a href=" https://www.tiktok.com/"><img src="https://static.vecteezy.com/system/resources/previews/023/741/129/non_2x/tiktok-logo-icon-social-media-icon-free-png.png" width="30px"> Tiktok</a></li>
+        <li><a href="https://www.facebook.com/"><img src="https://cdn.pixabay.com/photo/2021/06/15/12/51/facebook-6338508_1280.png" width="30px"></a></li>
+        <li><a href="https://x.com/"><img src="https://static.vecteezy.com/system/resources/thumbnails/027/395/710/small/twitter-brand-new-logo-3-d-with-new-x-shaped-graphic-of-the-world-s-most-popular-social-media-free-png.png" width="30px"></a></li>
+        <li><a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" width="30px"></a></li>
+        <li><a href=" https://www.tiktok.com/"><img src="https://static.vecteezy.com/system/resources/previews/023/741/129/non_2x/tiktok-logo-icon-social-media-icon-free-png.png" width="30px"></a></li>
     </ul></footer>
 </body>
 </html>

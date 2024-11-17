@@ -21,7 +21,7 @@ p {
     margin: 2rem;
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center; 
+    text-align: justify; 
 }
 .h2p {
     width: 768px;
@@ -54,7 +54,7 @@ section {
         padding: 0.25rem 0;
 }
 form :hover {
-    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.30);
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.30);  /* Efecto fresa*/
 }
 footer {
     background-color: rgb(0, 0, 0);
@@ -65,6 +65,6 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 ul {
-    list-style-type: none;
-    text-align: left;
+    list-style-type: none; 
+    text-align: left; 
 }
