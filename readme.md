@@ -10,4 +10,4 @@ La página se desplegó mediante GitHub Pages. Para ello, se siguieron los sigui
 3. Se fusionó la rama principal (master) con el repositorio en GitHub.
 4. Se generó el enlace a GitHub Pages accediendo a la sección Settings del repositorio, luego a Code and automation > Pages.
 5. En la sección de Pages, se seleccionó la rama principal (master) y se hizo clic en Save para generar la dirección del sitio.
-![GithubPages](https://drive.google.com/file/d/10aacoCgNcOK_L30GRAi-eGoOFcpGB1wR/view?usp=sharing)
+[GithubPages](https://github.com/user-attachments/assets/5eef001f-4c77-43e3-82db-795ae2e6be51)
